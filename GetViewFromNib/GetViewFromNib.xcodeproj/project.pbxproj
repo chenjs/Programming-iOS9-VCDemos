@@ -10,7 +10,7 @@
 		C0E4602E1C4BDE42006CDCA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E4602D1C4BDE42006CDCA4 /* AppDelegate.swift */; };
 		C0E460351C4BDE42006CDCA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E460341C4BDE42006CDCA4 /* Assets.xcassets */; };
 		C0E460401C4BDE63006CDCA4 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E4603F1C4BDE63006CDCA4 /* RootViewController.swift */; };
-		C0E460421C4BDE84006CDCA4 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0E460411C4BDE84006CDCA4 /* RootViewController.xib */; };
+		C0E460421C4BDE84006CDCA4 /* RootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0E460411C4BDE84006CDCA4 /* RootView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,7 +19,7 @@
 		C0E460341C4BDE42006CDCA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0E460391C4BDE42006CDCA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0E4603F1C4BDE63006CDCA4 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		C0E460411C4BDE84006CDCA4 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		C0E460411C4BDE84006CDCA4 /* RootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 				C0E4603F1C4BDE63006CDCA4 /* RootViewController.swift */,
 				C0E460341C4BDE42006CDCA4 /* Assets.xcassets */,
 				C0E460391C4BDE42006CDCA4 /* Info.plist */,
-				C0E460411C4BDE84006CDCA4 /* RootViewController.xib */,
+				C0E460411C4BDE84006CDCA4 /* RootView.xib */,
 			);
 			path = GetViewFromNib;
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0E460351C4BDE42006CDCA4 /* Assets.xcassets in Resources */,
-				C0E460421C4BDE84006CDCA4 /* RootViewController.xib in Resources */,
+				C0E460421C4BDE84006CDCA4 /* RootView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
